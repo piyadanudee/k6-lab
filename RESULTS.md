@@ -8,7 +8,8 @@
 - Step 0.4, API checks: 100% passed (3/3), http_req_duration avg: 370.15 ms, http_req_failed: 0%.
 - Step 0.5, missing-token check: 100% passed (1/1), expected status: 401, http_req_duration avg: 255.94 ms, http_req_failed: 0%.
 - Step 0.6, normal run: all thresholds passed; p(95) = 353.39 ms; http_req_failed = 0%; checks = 100%; exit code = 0.
-- Step 0.7, rules that passed, p(95), p(99), exit code after your change:
+- Step 0.7, requirement test: all thresholds passed; VUs = 3; duration = 30s; p(95) = 362.1 ms (< 1000 ms); p(99) = 368.51 ms (< 1500 ms); http_req_failed = 0%; checks = 100% (136/136); total requests = 68.
+- Step 0.7, failing threshold test: changed p(95) threshold to 300 ms; actual p(95) = 365.95 ms, so the threshold failed; p(99) = 373.23 ms; http_req_failed = 0%; checks = 100% (138/138); exit code = 99.
 - Step 0.8, what was wrong, and how the checks showed it:
 
 ## Part A results
