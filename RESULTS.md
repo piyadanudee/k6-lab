@@ -7,7 +7,7 @@
 - Step 0.3, iterations: 20, checks passed: 100%, http_req_duration avg: 260.07 ms, p(95): 273.5 ms, http_req_failed: 0%.
 - Step 0.4, API checks: 100% passed (3/3), http_req_duration avg: 370.15 ms, http_req_failed: 0%.
 - Step 0.5, missing-token check: 100% passed (1/1), expected status: 401, http_req_duration avg: 255.94 ms, http_req_failed: 0%.
-- Step 0.6, exit code of the normal run and of the run with P95=300:
+- Step 0.6, normal run: all thresholds passed; p(95) = 353.39 ms; http_req_failed = 0%; checks = 100%; exit code = 0.
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change:
 - Step 0.8, what was wrong, and how the checks showed it:
 
